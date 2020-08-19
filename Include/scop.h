@@ -3,7 +3,7 @@
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-#include "../libft/include/libft.h"
+#include "../libft/libft.h"
 # include "get_next_line.h"
 # include "vectors.h"
 # include "../Tga_Reader/includes/tga_reader.h"

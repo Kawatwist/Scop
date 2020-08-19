@@ -6,7 +6,7 @@
 /*   By: lomasse <lomasse@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/09 20:22:02 by lomasse           #+#    #+#             */
-/*   Updated: 2020/08/18 19:06:33 by lomasse          ###   ########.fr       */
+/*   Updated: 2020/08/19 17:05:18 by lomasse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,7 @@ int		runobj(t_glstruct glstruct, t_index *ret, t_camera camera, int nb_obj, t_ob
 	}
 	else
 	{
-		if (!setup_texture(&glstruct, text, "Jinx.tga", "\0"))
+		if (!setup_texture(&glstruct, text, "Maps/Jinx.tga", "\0"))
 		{
 			ft_putendl("Error Mallocated TGA file\n");
 			return (-1);

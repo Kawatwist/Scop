@@ -57,5 +57,5 @@ CFLAG			=
 
 all: 
 	@echo "relink !"
-	@$(CC) $(CFLAG) `pkg-config --cflags $(PKG)` $(SRC_PATH) libft/libft.a libft/include/libft.h Include/scop.h Include/get_next_line.h `pkg-config --static --libs $(PKG)` $(foreach fmw, $(FRAMEWORK), -framework $(fmw)) -L ./Tga_Reader -l Tga -I Tga_Reader/includes/tga_reader.h -L ./ObjReader -l objreader -I ObjReader/Includes/ObjReader.h -I ObjReader/Includes/ObjError.h ObjReader/libft/libft.a ObjReader/libft/libft.h
+	@$(CC) $(CFLAG) `pkg-config --cflags $(PKG)` $(SRC_PATH) libft/libft.a libft/libft.h Include/scop.h Include/get_next_line.h `pkg-config --static --libs $(PKG)` $(foreach fmw, $(FRAMEWORK), -framework $(fmw)) -L ./Tga_Reader -l Tga -I Tga_Reader/includes/tga_reader.h -L ./ObjReader -l objreader -I ObjReader/Includes/ObjReader.h -I ObjReader/Includes/ObjError.h ObjReader/libft/libft.a ObjReader/libft/libft.h
 	@mv a.out scop

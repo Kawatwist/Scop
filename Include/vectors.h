@@ -6,14 +6,14 @@
 /*   By: lomasse <lomasse@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/24 17:56:46 by esuits            #+#    #+#             */
-/*   Updated: 2020/08/08 21:31:05 by lomasse          ###   ########.fr       */
+/*   Updated: 2020/08/19 17:03:06 by lomasse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef VECTORS_H
 # define VECTORS_H
 
-# include "../libft/include/libft.h"
+# include "../libft/libft.h"
 # include <math.h>
 # include <stdio.h>
 

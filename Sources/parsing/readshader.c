@@ -1,5 +1,5 @@
 #include <OpenCL/opencl.h>
-#include "../../libft/include/libft.h"
+#include "../../libft/libft.h"
 #include "../../Include/get_next_line.h"
 #include <stdlib.h>
 

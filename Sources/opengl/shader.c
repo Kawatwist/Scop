@@ -6,7 +6,7 @@
 /*   By: lomasse <lomasse@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/08 17:51:34 by lomasse           #+#    #+#             */
-/*   Updated: 2020/08/08 18:11:25 by lomasse          ###   ########.fr       */
+/*   Updated: 2020/08/19 16:58:31 by lomasse          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,6 @@ GLuint	ft_shader(char *name, GLenum shader_type)
 	GLint success;
     GLchar infoLog[512];
 
-	//printf("%s\n", shader);
 	sha = glCreateShader(shader_type);
 	glShaderSource(sha, 1, &shader, NULL);
 	glCompileShader(sha);
@@ -47,9 +46,9 @@ GLuint	create_program(void)
 
 	shader_program = glCreateProgram();
 	glAttachShader(shader_program,
-		(shaders[0] = ft_shader("frag.sha", GL_FRAGMENT_SHADER)));
+		(shaders[0] = ft_shader("shader/frag.sha", GL_FRAGMENT_SHADER)));
 	glAttachShader(shader_program,
-		(shaders[1] = ft_shader("vertex.sha", GL_VERTEX_SHADER)));
+		(shaders[1] = ft_shader("shader/vertex.sha", GL_VERTEX_SHADER)));
 	glLinkProgram(shader_program);
  	glGetProgramiv(shader_program, GL_LINK_STATUS, &success);
     if (!success)
