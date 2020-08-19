@@ -1,0 +1,16 @@
+#version 400
+
+flat in vec3 our_color;
+in vec3 UV;
+
+out vec4 frag_color;
+
+uniform sampler2D texture1;
+uniform float alpha;
+
+
+void main()
+{
+	frag_color = vec4(our_color, 1.0f);
+	frag_color = frag_color * (1 - alpha) + alpha * texture(texture1, vec2(UV));
+}
