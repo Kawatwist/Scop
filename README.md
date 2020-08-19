@@ -84,10 +84,10 @@ Need to install
  <h3>Screenshot</h3>
  <b>Modeles by Yoru skins</b><br>
   https://sketchfab.com/3d-models/pentakill-jinx-league-of-legends-custom-skin-2a89df3515ea4c738795a40218c95b31<br>
- <b>Render by Scop</b>
- <img src="https://raw.https://github.com/Kawatwist/Scop/tree/master/Screenshot/Jinx_pentakill.png">
+ <b>Render by Scop :</b><br>
+ <img src="https://github.com/Kawatwist/Scop/blob/master/Screenshot/Jinx_pentakill.png" width="320" height="280">
 <br><br>
  <b>Modeles by vrchris</b><br>
   https://sketchfab.com/3d-models/de-dust2-cs-map-056008d59eb849a29c0ab6884c0c3d87<br>
- <b>Render by Scop</b>
- <img src="https://raw.https://github.com/Kawatwist/Scop/tree/master/Screenshot/de_dust.png">
+ <b>Render by Scop :</b>
+ <img src="https://github.com/Kawatwist/Scop/blob/master/Screenshot/de_dust.png" width="380" height="280">
